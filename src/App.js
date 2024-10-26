@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,8 +12,6 @@ import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Blogs from './pages/Blogs';
 import Outlets from './pages/Outlets';
-
-
 const App = () => {
   return (
     <div>
